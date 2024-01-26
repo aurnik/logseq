@@ -605,7 +605,7 @@
       (animated-modal "block-commands" (block-commands id format) true)
 
       (contains? #{:page-search :page-search-hashtag} action)
-      (animated-modal "page-search" (page-search id format) true)
+      (animated-modal "page-search" (page-search id format) false)
 
       (= :block-search action)
       (animated-modal "block-search" (block-search id format) true)
